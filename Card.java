@@ -8,7 +8,12 @@ public class Card {
 
     private String cardPicture;
     
-    public Card () 
+    public Card () {
+        cardSuit = "";
+        cardName = "";
+        cardValue = 0;
+        cardPicture = "";
+    }
     
     //constructor
     public Card (String cardSuit, String cardName, int cardValue, String cardPicture) {
